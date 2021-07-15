@@ -1,0 +1,38 @@
+body{
+    background-image: url("gif.gif");
+}
+
+h1{text-align: center;
+    color:white
+}
+#subti{
+    text-align: center;
+    color:white
+}
+.card-text{
+    text-align: center;
+
+}
+.card-title{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 2em 1em 2em;
+    animation: corpo 10s 1;
+}
+@keyframes corpo{
+    0%{
+        color:transparent;
+        margin-bottom:-70px;
+    }
+    30%{
+        latter-spacing:2px;
+        margin-bottom:-80px;
+    }
+}
